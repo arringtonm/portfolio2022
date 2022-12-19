@@ -61,9 +61,12 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:focus-visible {
   color: #2a1513;
   background: salmon;
+  outline-offset: 0px;
+  outline: 2px solid salmon;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,8 +74,11 @@ a:focus {
     background: #111;
     color: #f1f1f1;
   }
-  a:hover,
-  a:focus {
-    color: #111;
-  }
+  /* a:hover,
+  a:focus,
+  a:focus-visible {
+    background: salmon;
+    outline-offset: 0px;
+    outline: 2px solid salmon;
+  } */
 }
