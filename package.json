@@ -1,0 +1,15 @@
+{
+  "name": "portfolio20222",
+  "version": "1.0.0",
+  "description": "Updated arrington.tech portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server && sass --watch input.scss main.css"
+  },
+  "author": "Michael Arrington",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
