@@ -60,6 +60,12 @@ a {
   color: salmon;
 }
 
+a:hover,
+a:focus {
+  color: #2a1513;
+  background: salmon;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #111;
@@ -68,6 +74,5 @@ a {
   a:hover,
   a:focus {
     color: #111;
-    outline: 1px solid #f1f1f1;
   }
 }
