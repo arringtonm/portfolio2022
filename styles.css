@@ -3,27 +3,29 @@
 html {
   display: flex;
   flex-flow: column nowrap;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Figtree', sans-serif;
 }
 
 body {
   background-color: hsla(6 93% 71% / .05);
-  color: #2a1513;
+  /* color: #2a1513; */
+  color: #1D2D44;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 2rem;  
 }
 
 main {
   margin: auto;
   max-width: 60ch;
+  padding: 2rem;
+  padding-bottom: 4rem;  
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 23px;
   padding: 0;
   position: relative;
 }
@@ -57,7 +59,10 @@ li {
 }
 
 a {
-  color: salmon;
+  /* color: #b33939; */
+  color: #1D2D44;
+  /* outline: 2px solid salmon; */
+  text-decoration-color: salmon;
 }
 
 a:hover,
@@ -67,18 +72,22 @@ a:focus-visible {
   background: salmon;
   outline-offset: 0px;
   outline: 2px solid salmon;
+  text-decoration-color: #1D2D44;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111;
+    background: #141f2f;
     color: #f1f1f1;
   }
-  /* a:hover,
+  a {
+    color: #f1f1f1;
+  }
+  a:hover,
   a:focus,
   a:focus-visible {
     background: salmon;
     outline-offset: 0px;
     outline: 2px solid salmon;
-  } */
+  }
 }
